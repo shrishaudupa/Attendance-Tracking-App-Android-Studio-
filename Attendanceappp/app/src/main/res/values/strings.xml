@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AttendanceApp</string>
+
+    <!-- Activity labels -->
+    <string name="activity_main">Main Activity</string>
+    <string name="activity_your_new">Your New Activity</string>
+
+    <!-- Selected date label -->
+    <string name="selected_date_label">Selected Date: %1$s</string>
+
+    <!-- Attendance status labels -->
+    <string name="attendance_status_label">Status: %1$s</string>
+    <string name="attendance_status_present">Present</string>
+    <string name="attendance_status_absent">Absent</string>
+    <string name="attendance_status_half_day">Half-day</string>
+    <string name="attendance_status_unknown">Unknown</string>
+
+    <!-- Colors -->
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorOrange">#FFA500</color>
+
+    <!-- Options for the attendance spinner -->
+    <string-array name="attendance_options">
+        <item>@string/attendance_status_present</item>
+        <item>@string/attendance_status_absent</item>
+        <item>@string/attendance_status_half_day</item>
+    </string-array>
+
+    <!-- Subjects -->
+    <string-array name="subjects">
+        <item>Mathematics</item>
+        <item>Science</item>
+        <item>English</item>
+        <!-- Add more subjects here -->
+    </string-array>
+</resources>
